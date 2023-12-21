@@ -1,10 +1,23 @@
 # Sastantua
  - (C) August 2016
+ - Individual bootcamp project
+ - Academy+Plus Cluj-Napoca
 
-Sastantua Pyramid is an individual project form Academy+Plus, which is focusing on algorithms.
-The outcome is an Aztec Pyramid of a specified size, formed from '/', '*' and '\'. The Pyramid has also a door.
+# Description
+Sastantua is a project that displays the Sastantua Pyramid at stdout. The size of the pyramid is given as a command line argument.
 
-The project was developed for Linux/MacOS and run inside the command line. To build the project, one must run the following command:
+# Implementation
+The project was implemented in the sastantua.c file, with the help of ft_putchar() function. The only allowed function was write(3), from <unistd.h>. The main file is here for test purposes.
+
+The project was the first individual project from the C Bootcamp of the Academy+Plus. It was originally design for Linux/macOS.
+
+# Usage
+To compile the Sastantua project, one can use the gcc compiler:
 ```bash
 gcc -o sastantua main.c ft_putchar.c sastantua.c
+```
+Sastantua can be run as follows:
+```bash
+./sastantua 5
+# usage: ./sastantua [size]
 ```
